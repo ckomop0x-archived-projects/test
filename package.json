@@ -1,0 +1,20 @@
+{
+  "name": "test-for-js-klochkov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest './src/**/*.test.js' --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "expect": "^1.20.2",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4"
+  }
+}
