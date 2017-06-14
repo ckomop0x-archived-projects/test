@@ -10,7 +10,6 @@ const sortProductsByPrice = (() => {
   return (data = [], options) => {
     let tempArray = [ ...data ];
     modified = compare(state, tempArray);
-    console.log(modified, state, tempArray);
     if (!modified) {
       state = [ ...tempArray ];
     }
